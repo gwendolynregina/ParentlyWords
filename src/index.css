@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* 
+  ParentlyWords Design System
+  Color Palette: Soft Teal & Coral
+  Typography: Nunito (friendly, rounded) + System fallbacks
+*/
+
+@layer base {
+  :root {
+    /* Primary Colors - Teal */
+    --color-teal: #5B9A9A;
+    --color-teal-dark: #4A8080;
+    --color-teal-light: #7FB5B5;
+    --color-teal-pale: #E5F2F2;
+    
+    /* Accent Colors - Coral */
+    --color-coral: #E89B8C;
+    --color-coral-dark: #D48575;
+    --color-coral-light: #F5C4BA;
+    --color-coral-pale: #FDF0ED;
+    
+    /* Neutral - Cool Grays */
+    --color-white: #FAFBFB;
+    --color-gray-50: #F2F5F5;
+    --color-gray-100: #E8ECEC;
+    --color-gray-200: #D1D9D9;
+    --color-gray-300: #A8B5B5;
+    --color-gray-400: #7A8A8A;
+    --color-gray-500: #566363;
+    --color-gray-600: #3D4A4A;
+    --color-gray-700: #2A3333;
+  }
+
+  html {
+    font-family: 'Nunito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-700);
+    min-height: 100vh;
+  }
+
+  button, a {
+    transition: all 0.2s ease;
+  }
+}
