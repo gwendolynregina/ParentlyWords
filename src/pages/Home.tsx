@@ -30,7 +30,7 @@ export function Home() {
 
         {/* Header */}
         <header className="text-center mb-10">
-          <h1 className="text-3xl sm:text-4xl font-semibold text-[#2A3333] mb-3">
+          <h1 className="text-2xl sm:text-3xl font-semibold text-[#2A3333] mb-3">
             What's happening right now?
           </h1>
           <p className="text-[#566363] text-lg mb-4">
