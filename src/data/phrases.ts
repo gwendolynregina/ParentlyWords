@@ -119,7 +119,7 @@ export const situations: Situation[] = [
   },
   {
     id: "hurt",
-    title: "My child was hurt by someone",
+    title: "Someone hurt my child",
     icon: "💔",
     color: "bg-[#FDF0ED] hover:bg-[#F5D8D0]",
     phrases: [
@@ -202,8 +202,8 @@ export const situations: Situation[] = [
   },
   {
     id: "wont-listen",
-    title: "My child won't listen",
-    icon: "🙉",
+    title: "My child isn't listening",
+    icon: "👂",
     color: "bg-[#F2F5F5] hover:bg-[#E8ECEC]",
     phrases: [
       // Gentle
@@ -367,6 +367,322 @@ export const situations: Situation[] = [
     ]
   },
   {
+    id: "leaving",
+    title: "It's time to go",
+    icon: "🚪",
+    color: "bg-[#F5F0ED] hover:bg-[#EBE3DD]",
+    phrases: [
+      // Gentle
+      {
+        id: "leave-g1",
+        english: "Five more minutes, then it's time to go.",
+        french: "Encore cinq minutes, puis on doit y aller.",
+        mandarin: "再玩五分钟，然后我们就要走了。",
+        pinyin: "Zài wán wǔ fēnzhōng, ránhòu wǒmen jiù yào zǒu le.",
+        tone: "gentle"
+      },
+      {
+        id: "leave-g2",
+        english: "I know it's hard to leave when you're having fun.",
+        french: "Je sais que c'est difficile de partir quand tu t'amuses.",
+        mandarin: "我知道玩得开心时很难离开。",
+        pinyin: "Wǒ zhīdào wán de kāixīn shí hěn nán líkāi.",
+        tone: "gentle"
+      },
+      {
+        id: "leave-g3",
+        english: "We can come back another day.",
+        french: "On pourra revenir un autre jour.",
+        mandarin: "我们可以改天再来。",
+        pinyin: "Wǒmen kěyǐ gǎitiān zài lái.",
+        tone: "gentle"
+      },
+      // Neutral
+      {
+        id: "leave-n1",
+        english: "It's time to go now.",
+        french: "C'est l'heure de partir maintenant.",
+        mandarin: "现在是时候走了。",
+        pinyin: "Xiànzài shì shíhòu zǒu le.",
+        tone: "neutral"
+      },
+      {
+        id: "leave-n2",
+        english: "Say goodbye and let's go.",
+        french: "Dis au revoir et allons-y.",
+        mandarin: "说再见，我们走吧。",
+        pinyin: "Shuō zàijiàn, wǒmen zǒu ba.",
+        tone: "neutral"
+      },
+      {
+        id: "leave-n3",
+        english: "Put your shoes on, please.",
+        french: "Mets tes chaussures, s'il te plaît.",
+        mandarin: "请穿上你的鞋子。",
+        pinyin: "Qǐng chuān shàng nǐ de xiézi.",
+        tone: "neutral"
+      },
+      // Firm
+      {
+        id: "leave-f1",
+        english: "We're leaving now. No more discussion.",
+        french: "On part maintenant. Pas de discussion.",
+        mandarin: "我们现在就走。不要再讨论了。",
+        pinyin: "Wǒmen xiànzài jiù zǒu. Bùyào zài tǎolùn le.",
+        tone: "firm"
+      },
+      {
+        id: "leave-f2",
+        english: "You have two choices: walk or be carried.",
+        french: "Tu as deux choix : marcher ou être porté.",
+        mandarin: "你有两个选择：自己走或者我抱着你走。",
+        pinyin: "Nǐ yǒu liǎng gè xuǎnzé: zìjǐ zǒu huòzhě wǒ bào zhe nǐ zǒu.",
+        tone: "firm"
+      },
+      {
+        id: "leave-f3",
+        english: "I'm counting to three, then we go.",
+        french: "Je compte jusqu'à trois, puis on part.",
+        mandarin: "我数到三，然后我们就走。",
+        pinyin: "Wǒ shǔ dào sān, ránhòu wǒmen jiù zǒu.",
+        tone: "firm"
+      }
+    ]
+  },
+  {
+    id: "everyday",
+    title: "Everyday phrases",
+    icon: "💬",
+    color: "bg-[#E5F0F0] hover:bg-[#D5E5E5]",
+    phrases: [
+      // "Can you bring me the toy?"
+      {
+        id: "everyday-g1",
+        english: "Can you bring me the toy?",
+        french: "Tu peux m'apporter le jouet, s'il te plaît ?",
+        mandarin: "你可以帮我拿一下玩具吗？",
+        pinyin: "nǐ kě yǐ bāng wǒ ná yí xià wán jù ma?",
+        tone: "gentle"
+      },
+      {
+        id: "everyday-n1",
+        english: "Can you bring me the toy?",
+        french: "Tu m'apportes le jouet ?",
+        mandarin: "你把玩具拿过来。",
+        pinyin: "nǐ bǎ wán jù ná guò lái.",
+        tone: "neutral"
+      },
+      {
+        id: "everyday-f1",
+        english: "Can you bring me the toy?",
+        french: "Apporte-moi le jouet, maintenant.",
+        mandarin: "现在把玩具拿过来。",
+        pinyin: "xiàn zài bǎ wán jù ná guò lái.",
+        tone: "firm"
+      },
+      // "Come here"
+      {
+        id: "everyday-g2",
+        english: "Come here",
+        french: "Viens ici, s'il te plaît.",
+        mandarin: "过来一下，好吗？",
+        pinyin: "guò lái yí xià, hǎo ma?",
+        tone: "gentle"
+      },
+      {
+        id: "everyday-n2",
+        english: "Come here",
+        french: "Viens ici.",
+        mandarin: "过来。",
+        pinyin: "guò lái.",
+        tone: "neutral"
+      },
+      {
+        id: "everyday-f2",
+        english: "Come here",
+        french: "Viens ici, tout de suite.",
+        mandarin: "马上过来。",
+        pinyin: "mǎ shàng guò lái.",
+        tone: "firm"
+      },
+      // "Wait"
+      {
+        id: "everyday-g3",
+        english: "Wait",
+        french: "Attends un petit moment.",
+        mandarin: "等一下，好吗？",
+        pinyin: "děng yí xià, hǎo ma?",
+        tone: "gentle"
+      },
+      {
+        id: "everyday-n3",
+        english: "Wait",
+        french: "Attends.",
+        mandarin: "等一下。",
+        pinyin: "děng yí xià.",
+        tone: "neutral"
+      },
+      {
+        id: "everyday-f3",
+        english: "Wait",
+        french: "Stop. Attends.",
+        mandarin: "停，等着。",
+        pinyin: "tíng, děng zhe.",
+        tone: "firm"
+      },
+      // "Give it to me"
+      {
+        id: "everyday-g4",
+        english: "Give it to me",
+        french: "Tu me le donnes, s'il te plaît ?",
+        mandarin: "可以给我吗？",
+        pinyin: "kě yǐ gěi wǒ ma?",
+        tone: "gentle"
+      },
+      {
+        id: "everyday-n4",
+        english: "Give it to me",
+        french: "Donne-moi ça.",
+        mandarin: "给我。",
+        pinyin: "gěi wǒ.",
+        tone: "neutral"
+      },
+      {
+        id: "everyday-f4",
+        english: "Give it to me",
+        french: "Donne-moi ça, maintenant.",
+        mandarin: "现在给我。",
+        pinyin: "xiàn zài gěi wǒ.",
+        tone: "firm"
+      },
+      // "Stop / Don't do that"
+      {
+        id: "everyday-g5",
+        english: "Stop / Don't do that",
+        french: "Doucement, on ne fait pas ça.",
+        mandarin: "慢一点，这样不行。",
+        pinyin: "màn yì diǎn, zhè yàng bù xíng.",
+        tone: "gentle"
+      },
+      {
+        id: "everyday-n5",
+        english: "Stop / Don't do that",
+        french: "On ne fait pas ça.",
+        mandarin: "不可以这样。",
+        pinyin: "bù kě yǐ zhè yàng.",
+        tone: "neutral"
+      },
+      {
+        id: "everyday-f5",
+        english: "Stop / Don't do that",
+        french: "Stop. J'arrête.",
+        mandarin: "停。我不允许。",
+        pinyin: "tíng. wǒ bù yǔn xǔ.",
+        tone: "firm"
+      },
+      // "Listen to me"
+      {
+        id: "everyday-g6",
+        english: "Listen to me",
+        french: "Écoute-moi un instant.",
+        mandarin: "听我说一下，好吗？",
+        pinyin: "tīng wǒ shuō yí xià, hǎo ma?",
+        tone: "gentle"
+      },
+      {
+        id: "everyday-n6",
+        english: "Listen to me",
+        french: "Écoute-moi.",
+        mandarin: "听我说。",
+        pinyin: "tīng wǒ shuō.",
+        tone: "neutral"
+      },
+      {
+        id: "everyday-f6",
+        english: "Listen to me",
+        french: "Écoute-moi maintenant.",
+        mandarin: "现在听我说。",
+        pinyin: "xiàn zài tīng wǒ shuō.",
+        tone: "firm"
+      },
+      // "Put it away"
+      {
+        id: "everyday-g7",
+        english: "Put it away",
+        french: "On range ça ensemble.",
+        mandarin: "我们一起收起来。",
+        pinyin: "wǒ men yì qǐ shōu qǐ lái.",
+        tone: "gentle"
+      },
+      {
+        id: "everyday-n7",
+        english: "Put it away",
+        french: "Range ça.",
+        mandarin: "收起来。",
+        pinyin: "shōu qǐ lái.",
+        tone: "neutral"
+      },
+      {
+        id: "everyday-f7",
+        english: "Put it away",
+        french: "Range ça maintenant.",
+        mandarin: "现在收起来。",
+        pinyin: "xiàn zài shōu qǐ lái.",
+        tone: "firm"
+      },
+      // "Sit down"
+      {
+        id: "everyday-g8",
+        english: "Sit down",
+        french: "Tu peux t'asseoir, s'il te plaît ?",
+        mandarin: "你坐一下，好吗？",
+        pinyin: "nǐ zuò yí xià, hǎo ma?",
+        tone: "gentle"
+      },
+      {
+        id: "everyday-n8",
+        english: "Sit down",
+        french: "Assieds-toi.",
+        mandarin: "坐下。",
+        pinyin: "zuò xià.",
+        tone: "neutral"
+      },
+      {
+        id: "everyday-f8",
+        english: "Sit down",
+        french: "Assieds-toi maintenant.",
+        mandarin: "现在坐下。",
+        pinyin: "xiàn zài zuò xià.",
+        tone: "firm"
+      },
+      // "Careful"
+      {
+        id: "everyday-g9",
+        english: "Careful",
+        french: "Attention, doucement.",
+        mandarin: "小心一点。",
+        pinyin: "xiǎo xīn yì diǎn.",
+        tone: "gentle"
+      },
+      {
+        id: "everyday-n9",
+        english: "Careful",
+        french: "Attention.",
+        mandarin: "小心。",
+        pinyin: "xiǎo xīn.",
+        tone: "neutral"
+      },
+      {
+        id: "everyday-f9",
+        english: "Careful",
+        french: "Stop, c'est dangereux.",
+        mandarin: "停，很危险。",
+        pinyin: "tíng, hěn wēi xiǎn.",
+        tone: "firm"
+      }
+    ]
+  },
+  {
     id: "sharing",
     title: "My child doesn't want to share",
     icon: "🤝",
@@ -445,6 +761,89 @@ export const situations: Situation[] = [
         french: "Donne son tour à ton ami maintenant.",
         mandarin: "现在让你的朋友玩一下。",
         pinyin: "Xiànzài ràng nǐ de péngyǒu wán yīxià.",
+        tone: "firm"
+      }
+    ]
+  },
+  {
+    id: "unkind",
+    title: "My child said something unkind",
+    icon: "💬",
+    color: "bg-[#ECEDED] hover:bg-[#DFE2E2]",
+    phrases: [
+      // Gentle
+      {
+        id: "unkind-g1",
+        english: "Those words can hurt. How do you think that made them feel?",
+        french: "Ces mots peuvent faire mal. Comment penses-tu qu'ils se sont sentis ?",
+        mandarin: "那些话会伤害人。你觉得他们听了会怎么想？",
+        pinyin: "Nàxiē huà huì shānghài rén. Nǐ juéde tāmen tīng le huì zěnme xiǎng?",
+        tone: "gentle"
+      },
+      {
+        id: "unkind-g2",
+        english: "I know you didn't mean to hurt them.",
+        french: "Je sais que tu ne voulais pas leur faire de mal.",
+        mandarin: "我知道你不是故意要伤害他们的。",
+        pinyin: "Wǒ zhīdào nǐ bùshì gùyì yào shānghài tāmen de.",
+        tone: "gentle"
+      },
+      {
+        id: "unkind-g3",
+        english: "Let's think of a kinder way to say that.",
+        french: "Réfléchissons à une façon plus gentille de le dire.",
+        mandarin: "我们想想有没有更友善的说法。",
+        pinyin: "Wǒmen xiǎng xiǎng yǒu méiyǒu gèng yǒushàn de shuōfǎ.",
+        tone: "gentle"
+      },
+      // Neutral
+      {
+        id: "unkind-n1",
+        english: "That wasn't a kind thing to say.",
+        french: "Ce n'était pas gentil de dire ça.",
+        mandarin: "那样说话不太友善。",
+        pinyin: "Nàyàng shuōhuà bù tài yǒushàn.",
+        tone: "neutral"
+      },
+      {
+        id: "unkind-n2",
+        english: "How would you feel if someone said that to you?",
+        french: "Comment te sentirais-tu si quelqu'un te disait ça ?",
+        mandarin: "如果有人对你说那样的话，你会怎么想？",
+        pinyin: "Rúguǒ yǒu rén duì nǐ shuō nàyàng de huà, nǐ huì zěnme xiǎng?",
+        tone: "neutral"
+      },
+      {
+        id: "unkind-n3",
+        english: "We use kind words in this family.",
+        french: "Dans notre famille, on utilise des mots gentils.",
+        mandarin: "在我们家，我们说友善的话。",
+        pinyin: "Zài wǒmen jiā, wǒmen shuō yǒushàn de huà.",
+        tone: "neutral"
+      },
+      // Firm
+      {
+        id: "unkind-f1",
+        english: "That's not okay. You need to apologize.",
+        french: "Ce n'est pas acceptable. Tu dois t'excuser.",
+        mandarin: "那样说话是不对的。你需要道歉。",
+        pinyin: "Nàyàng shuōhuà shì bùduì de. Nǐ xūyào dàoqiàn.",
+        tone: "firm"
+      },
+      {
+        id: "unkind-f2",
+        english: "I don't allow name-calling.",
+        french: "Je n'accepte pas les insultes.",
+        mandarin: "我不允许骂人。",
+        pinyin: "Wǒ bù yǔnxǔ mà rén.",
+        tone: "firm"
+      },
+      {
+        id: "unkind-f3",
+        english: "Stop and think before you speak.",
+        french: "Arrête-toi et réfléchis avant de parler.",
+        mandarin: "说话之前先停下来想一想。",
+        pinyin: "Shuōhuà zhīqián xiān tíng xiàlái xiǎng yī xiǎng.",
         tone: "firm"
       }
     ]
@@ -541,89 +940,6 @@ export const situations: Situation[] = [
     ]
   },
   {
-    id: "leaving",
-    title: "We need to leave",
-    icon: "🚪",
-    color: "bg-[#F5F0ED] hover:bg-[#EBE3DD]",
-    phrases: [
-      // Gentle
-      {
-        id: "leave-g1",
-        english: "Five more minutes, then it's time to go.",
-        french: "Encore cinq minutes, puis on doit y aller.",
-        mandarin: "再玩五分钟，然后我们就要走了。",
-        pinyin: "Zài wán wǔ fēnzhōng, ránhòu wǒmen jiù yào zǒu le.",
-        tone: "gentle"
-      },
-      {
-        id: "leave-g2",
-        english: "I know it's hard to leave when you're having fun.",
-        french: "Je sais que c'est difficile de partir quand tu t'amuses.",
-        mandarin: "我知道玩得开心时很难离开。",
-        pinyin: "Wǒ zhīdào wán de kāixīn shí hěn nán líkāi.",
-        tone: "gentle"
-      },
-      {
-        id: "leave-g3",
-        english: "We can come back another day.",
-        french: "On pourra revenir un autre jour.",
-        mandarin: "我们可以改天再来。",
-        pinyin: "Wǒmen kěyǐ gǎitiān zài lái.",
-        tone: "gentle"
-      },
-      // Neutral
-      {
-        id: "leave-n1",
-        english: "It's time to go now.",
-        french: "C'est l'heure de partir maintenant.",
-        mandarin: "现在是时候走了。",
-        pinyin: "Xiànzài shì shíhòu zǒu le.",
-        tone: "neutral"
-      },
-      {
-        id: "leave-n2",
-        english: "Say goodbye and let's go.",
-        french: "Dis au revoir et allons-y.",
-        mandarin: "说再见，我们走吧。",
-        pinyin: "Shuō zàijiàn, wǒmen zǒu ba.",
-        tone: "neutral"
-      },
-      {
-        id: "leave-n3",
-        english: "Put your shoes on, please.",
-        french: "Mets tes chaussures, s'il te plaît.",
-        mandarin: "请穿上你的鞋子。",
-        pinyin: "Qǐng chuān shàng nǐ de xiézi.",
-        tone: "neutral"
-      },
-      // Firm
-      {
-        id: "leave-f1",
-        english: "We're leaving now. No more discussion.",
-        french: "On part maintenant. Pas de discussion.",
-        mandarin: "我们现在就走。不要再讨论了。",
-        pinyin: "Wǒmen xiànzài jiù zǒu. Bùyào zài tǎolùn le.",
-        tone: "firm"
-      },
-      {
-        id: "leave-f2",
-        english: "You have two choices: walk or be carried.",
-        french: "Tu as deux choix : marcher ou être porté.",
-        mandarin: "你有两个选择：自己走或者我抱着你走。",
-        pinyin: "Nǐ yǒu liǎng gè xuǎnzé: zìjǐ zǒu huòzhě wǒ bào zhe nǐ zǒu.",
-        tone: "firm"
-      },
-      {
-        id: "leave-f3",
-        english: "I'm counting to three, then we go.",
-        french: "Je compte jusqu'à trois, puis on part.",
-        mandarin: "我数到三，然后我们就走。",
-        pinyin: "Wǒ shǔ dào sān, ránhòu wǒmen jiù zǒu.",
-        tone: "firm"
-      }
-    ]
-  },
-  {
     id: "bedtime",
     title: "Bedtime is hard",
     icon: "🌙",
@@ -702,89 +1018,6 @@ export const situations: Situation[] = [
         french: "Si tu continues à te lever, tu n'auras pas d'histoire demain.",
         mandarin: "如果你继续起来，明天就没有故事时间了。",
         pinyin: "Rúguǒ nǐ jìxù qǐlái, míngtiān jiù méiyǒu gùshì shíjiān le.",
-        tone: "firm"
-      }
-    ]
-  },
-  {
-    id: "unkind",
-    title: "My child said something unkind",
-    icon: "💬",
-    color: "bg-[#ECEDED] hover:bg-[#DFE2E2]",
-    phrases: [
-      // Gentle
-      {
-        id: "unkind-g1",
-        english: "Those words can hurt. How do you think that made them feel?",
-        french: "Ces mots peuvent faire mal. Comment penses-tu qu'ils se sont sentis ?",
-        mandarin: "那些话会伤害人。你觉得他们听了会怎么想？",
-        pinyin: "Nàxiē huà huì shānghài rén. Nǐ juéde tāmen tīng le huì zěnme xiǎng?",
-        tone: "gentle"
-      },
-      {
-        id: "unkind-g2",
-        english: "I know you didn't mean to hurt them.",
-        french: "Je sais que tu ne voulais pas leur faire de mal.",
-        mandarin: "我知道你不是故意要伤害他们的。",
-        pinyin: "Wǒ zhīdào nǐ bùshì gùyì yào shānghài tāmen de.",
-        tone: "gentle"
-      },
-      {
-        id: "unkind-g3",
-        english: "Let's think of a kinder way to say that.",
-        french: "Réfléchissons à une façon plus gentille de le dire.",
-        mandarin: "我们想想有没有更友善的说法。",
-        pinyin: "Wǒmen xiǎng xiǎng yǒu méiyǒu gèng yǒushàn de shuōfǎ.",
-        tone: "gentle"
-      },
-      // Neutral
-      {
-        id: "unkind-n1",
-        english: "That wasn't a kind thing to say.",
-        french: "Ce n'était pas gentil de dire ça.",
-        mandarin: "那样说话不太友善。",
-        pinyin: "Nàyàng shuōhuà bù tài yǒushàn.",
-        tone: "neutral"
-      },
-      {
-        id: "unkind-n2",
-        english: "How would you feel if someone said that to you?",
-        french: "Comment te sentirais-tu si quelqu'un te disait ça ?",
-        mandarin: "如果有人对你说那样的话，你会怎么想？",
-        pinyin: "Rúguǒ yǒu rén duì nǐ shuō nàyàng de huà, nǐ huì zěnme xiǎng?",
-        tone: "neutral"
-      },
-      {
-        id: "unkind-n3",
-        english: "We use kind words in this family.",
-        french: "Dans notre famille, on utilise des mots gentils.",
-        mandarin: "在我们家，我们说友善的话。",
-        pinyin: "Zài wǒmen jiā, wǒmen shuō yǒushàn de huà.",
-        tone: "neutral"
-      },
-      // Firm
-      {
-        id: "unkind-f1",
-        english: "That's not okay. You need to apologize.",
-        french: "Ce n'est pas acceptable. Tu dois t'excuser.",
-        mandarin: "那样说话是不对的。你需要道歉。",
-        pinyin: "Nàyàng shuōhuà shì bùduì de. Nǐ xūyào dàoqiàn.",
-        tone: "firm"
-      },
-      {
-        id: "unkind-f2",
-        english: "I don't allow name-calling.",
-        french: "Je n'accepte pas les insultes.",
-        mandarin: "我不允许骂人。",
-        pinyin: "Wǒ bù yǔnxǔ mà rén.",
-        tone: "firm"
-      },
-      {
-        id: "unkind-f3",
-        english: "Stop and think before you speak.",
-        french: "Arrête-toi et réfléchis avant de parler.",
-        mandarin: "说话之前先停下来想一想。",
-        pinyin: "Shuōhuà zhīqián xiān tíng xiàlái xiǎng yī xiǎng.",
         tone: "firm"
       }
     ]

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { situations } from '../data/phrases';
 import { PhraseCard } from '../components/PhraseCard';
@@ -5,6 +6,19 @@ import { useSavedPhrases } from '../hooks/useSavedPhrases';
 
 export function Saved() {
   const { savedIds, isSaved, toggleSaved } = useSavedPhrases();
+  const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
+
+  const toggleExpanded = (phraseId: string) => {
+    setExpandedIds(prev => {
+      const next = new Set(prev);
+      if (next.has(phraseId)) {
+        next.delete(phraseId);
+      } else {
+        next.add(phraseId);
+      }
+      return next;
+    });
+  };
 
   // Get all saved phrases with their situation context
   const savedPhrases = situations.flatMap(situation => 
@@ -82,6 +96,8 @@ export function Saved() {
                         phrase={phrase}
                         isSaved={isSaved(phrase.id)}
                         onToggleSave={() => toggleSaved(phrase.id)}
+                        isExpanded={expandedIds.has(phrase.id)}
+                        onToggleExpand={() => toggleExpanded(phrase.id)}
                       />
                     ))}
                   </div>

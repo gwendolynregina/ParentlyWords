@@ -11,6 +11,19 @@ export function Situation() {
   const [selectedTone, setSelectedTone] = useState<Tone>('gentle');
   const { isSaved, toggleSaved } = useSavedPhrases();
   const [showComingSoon, setShowComingSoon] = useState(false);
+  const [expandedIndices, setExpandedIndices] = useState<Set<number>>(new Set());
+
+  const toggleExpanded = (index: number) => {
+    setExpandedIndices(prev => {
+      const next = new Set(prev);
+      if (next.has(index)) {
+        next.delete(index);
+      } else {
+        next.add(index);
+      }
+      return next;
+    });
+  };
 
   const situation = id ? getSituationById(id) : undefined;
 
@@ -67,12 +80,14 @@ export function Situation() {
       {/* Phrases */}
       <main className="max-w-2xl mx-auto px-4 py-6">
         <div className="space-y-4">
-          {phrases.map((phrase) => (
+          {phrases.map((phrase, index) => (
             <PhraseCard
               key={phrase.id}
               phrase={phrase}
               isSaved={isSaved(phrase.id)}
               onToggleSave={() => toggleSaved(phrase.id)}
+              isExpanded={expandedIndices.has(index)}
+              onToggleExpand={() => toggleExpanded(index)}
             />
           ))}
         </div>

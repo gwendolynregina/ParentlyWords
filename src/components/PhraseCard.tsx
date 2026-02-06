@@ -5,10 +5,11 @@ interface PhraseCardProps {
   phrase: Phrase;
   isSaved: boolean;
   onToggleSave: () => void;
+  isExpanded: boolean;
+  onToggleExpand: () => void;
 }
 
-export function PhraseCard({ phrase, isSaved, onToggleSave }: PhraseCardProps) {
-  const [isExpanded, setIsExpanded] = useState(false);
+export function PhraseCard({ phrase, isSaved, onToggleSave, isExpanded, onToggleExpand }: PhraseCardProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async (text: string) => {
@@ -36,7 +37,7 @@ export function PhraseCard({ phrase, isSaved, onToggleSave }: PhraseCardProps) {
     >
       {/* Main touchable area */}
       <button
-        onClick={() => setIsExpanded(!isExpanded)}
+        onClick={onToggleExpand}
         className="w-full p-5 text-left flex items-start gap-4 hover:bg-[#F2F5F5] transition-colors"
       >
         <span className="text-xl flex-shrink-0 mt-0.5 text-[#5B9A9A]">

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { Home } from './pages/Home';
 import { Situation } from './pages/Situation';
 import { Saved } from './pages/Saved';
@@ -11,6 +12,7 @@ function App() {
         <Route path="/situation/:id" element={<Situation />} />
         <Route path="/saved" element={<Saved />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }

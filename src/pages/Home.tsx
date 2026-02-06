@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { situations } from '../data/phrases';
 import { SituationCard } from '../components/SituationCard';
+import { SearchBar } from '../components/SearchBar';
 
 export function Home() {
   return (
@@ -15,13 +16,16 @@ export function Home() {
               <span className="text-xs sm:text-sm text-[#7A8A8A] hidden sm:block">Helpful parenting phrases, across languages.</span>
             </div>
           </div>
-          <Link
-            to="/saved"
-            className="flex items-center gap-2 px-4 py-2 text-[#566363] hover:text-[#2A3333] hover:bg-[#E8ECEC] rounded-xl transition-colors"
-          >
-            <span className="text-xl">★</span>
-            <span className="font-semibold">Saved</span>
-          </Link>
+          <div className="flex items-center gap-1">
+            <SearchBar />
+            <Link
+              to="/saved"
+              className="flex items-center gap-2 px-4 py-2 text-[#566363] hover:text-[#2A3333] hover:bg-[#E8ECEC] rounded-xl transition-colors"
+            >
+              <span className="text-xl">★</span>
+              <span className="font-semibold">Saved</span>
+            </Link>
+          </div>
         </div>
 
         {/* Header */}
