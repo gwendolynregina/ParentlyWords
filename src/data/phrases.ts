@@ -28,7 +28,7 @@ export const situations: Situation[] = [
       {
         id: "upset-g1",
         english: "I can see you're feeling sad. I'm here with you.",
-        french: "Je vois que tu es triste. Je suis là avec toi.",
+        french: "Ça te fait beaucoup d'émotions, là.",
         mandarin: "我看到你很难过。我在这里陪着你。",
         pinyin: "Wǒ kàn dào nǐ hěn nánguò. Wǒ zài zhèlǐ péi zhe nǐ.",
         tone: "gentle"
@@ -36,7 +36,7 @@ export const situations: Situation[] = [
       {
         id: "upset-g2",
         english: "It's okay to cry. I'll stay right here.",
-        french: "C'est normal de pleurer. Je reste là.",
+        french: "Je suis là, prends ton temps.",
         mandarin: "哭出来没关系。我会一直在这里。",
         pinyin: "Kū chūlái méi guānxi. Wǒ huì yīzhí zài zhèlǐ.",
         tone: "gentle"
@@ -44,7 +44,7 @@ export const situations: Situation[] = [
       {
         id: "upset-g3",
         english: "Do you want a hug?",
-        french: "Tu veux un câlin ?",
+        french: "Tu veux que je reste près de toi ?",
         mandarin: "你想要一个拥抱吗？",
         pinyin: "Nǐ xiǎng yào yīgè yōngbào ma?",
         tone: "gentle"
@@ -52,16 +52,16 @@ export const situations: Situation[] = [
       {
         id: "upset-g4",
         english: "I understand this is hard for you.",
-        french: "Je comprends que c'est difficile pour toi.",
-        mandarin: "我理解这对你来说很难。",
-        pinyin: "Wǒ lǐjiě zhè duì nǐ lái shuō hěn nán.",
+        french: "Ça a dû être vraiment dur.",
+        mandarin: "我知道这对你来说真的很难。",
+        pinyin: "Wǒ zhīdào zhè duì nǐ lái shuō zhēn de hěn nán.",
         tone: "gentle"
       },
       // Neutral
       {
         id: "upset-n1",
         english: "Can you tell me what happened?",
-        french: "Tu peux me dire ce qui s'est passé ?",
+        french: "Dis-moi ce qui t'embête.",
         mandarin: "你能告诉我发生了什么吗？",
         pinyin: "Nǐ néng gàosù wǒ fāshēng le shénme ma?",
         tone: "neutral"
@@ -69,15 +69,15 @@ export const situations: Situation[] = [
       {
         id: "upset-n2",
         english: "Take a deep breath with me.",
-        french: "Respire profondément avec moi.",
-        mandarin: "和我一起深呼吸。",
-        pinyin: "Hé wǒ yīqǐ shēn hūxī.",
+        french: "Regarde-moi et parle-moi.",
+        mandarin: "来，和我一起深呼吸。",
+        pinyin: "Lái, hé wǒ yìqǐ shēn hūxī.",
         tone: "neutral"
       },
       {
         id: "upset-n3",
         english: "Let's figure this out together.",
-        french: "On va trouver une solution ensemble.",
+        french: "On va régler ça.",
         mandarin: "我们一起想办法。",
         pinyin: "Wǒmen yīqǐ xiǎng bànfǎ.",
         tone: "neutral"
@@ -85,32 +85,32 @@ export const situations: Situation[] = [
       {
         id: "upset-n4",
         english: "What do you need right now?",
-        french: "De quoi as-tu besoin maintenant ?",
-        mandarin: "你现在需要什么？",
-        pinyin: "Nǐ xiànzài xūyào shénme?",
+        french: "Calme ton corps un peu.",
+        mandarin: "你现在想要什么？",
+        pinyin: "Nǐ xiànzài xiǎng yào shénme?",
         tone: "neutral"
       },
       // Firm
       {
         id: "upset-f1",
         english: "I hear you, but screaming won't help us solve this.",
-        french: "Je t'entends, mais crier ne va pas nous aider.",
-        mandarin: "我听到你了，但是大喊不能帮我们解决问题。",
-        pinyin: "Wǒ tīng dào nǐ le, dànshì dà hǎn bù néng bāng wǒmen jiějué wèntí.",
+        french: "Je t'écoute, mais sans crier.",
+        mandarin: "我听到你了，但大喊帮不了我们。",
+        pinyin: "Wǒ tīng dào nǐ le, dàn dà hǎn bāng bù liǎo wǒmen.",
         tone: "firm"
       },
       {
         id: "upset-f2",
         english: "I want to help you, but I need you to calm down first.",
-        french: "Je veux t'aider, mais j'ai besoin que tu te calmes d'abord.",
-        mandarin: "我想帮助你，但我需要你先冷静下来。",
-        pinyin: "Wǒ xiǎng bāngzhù nǐ, dàn wǒ xūyào nǐ xiān lěngjìng xiàlái.",
+        french: "On se calme tout de suite.",
+        mandarin: "我想帮你，我们先一起冷静一下，好吗？",
+        pinyin: "Wǒ xiǎng bāng nǐ, wǒmen xiān yìqǐ lěngjìng yíxià, hǎo ma?",
         tone: "firm"
       },
       {
         id: "upset-f3",
         english: "Let's take a break and try again when you're ready.",
-        french: "Faisons une pause et réessayons quand tu seras prêt.",
+        french: "Je ne peux pas t'aider si tu cries.",
         mandarin: "我们休息一下，等你准备好了再试。",
         pinyin: "Wǒmen xiūxi yīxià, děng nǐ zhǔnbèi hǎo le zài shì.",
         tone: "firm"
@@ -127,7 +127,7 @@ export const situations: Situation[] = [
       {
         id: "hurt-g1",
         english: "I can see that really hurt. I'm sorry that happened.",
-        french: "Je vois que ça t'a vraiment fait mal. Je suis désolé que ça soit arrivé.",
+        french: "Ça t'a surpris ?",
         mandarin: "我知道这让你很伤心。我很抱歉发生了这件事。",
         pinyin: "Wǒ zhīdào zhè ràng nǐ hěn shāngxīn. Wǒ hěn bàoqiàn fāshēng le zhè jiàn shì.",
         tone: "gentle"
@@ -135,15 +135,15 @@ export const situations: Situation[] = [
       {
         id: "hurt-g2",
         english: "Your feelings matter to me.",
-        french: "Tes sentiments sont importants pour moi.",
-        mandarin: "你的感受对我很重要。",
-        pinyin: "Nǐ de gǎnshòu duì wǒ hěn zhòngyào.",
+        french: "Ça t'a fait mal au cœur ?",
+        mandarin: "你的感受对我来说很重要。",
+        pinyin: "Nǐ de gǎnshòu duì wǒ lái shuō hěn zhòngyào.",
         tone: "gentle"
       },
       {
         id: "hurt-g3",
         english: "It wasn't your fault.",
-        french: "Ce n'était pas de ta faute.",
+        french: "Je comprends que tu sois blessé.",
         mandarin: "这不是你的错。",
         pinyin: "Zhè bùshì nǐ de cuò.",
         tone: "gentle"
@@ -152,7 +152,7 @@ export const situations: Situation[] = [
       {
         id: "hurt-n1",
         english: "Tell me what happened.",
-        french: "Dis-moi ce qui s'est passé.",
+        french: "Qui était là ?",
         mandarin: "告诉我发生了什么。",
         pinyin: "Gàosù wǒ fāshēng le shénme.",
         tone: "neutral"
@@ -160,7 +160,7 @@ export const situations: Situation[] = [
       {
         id: "hurt-n2",
         english: "Are you hurt? Let me see.",
-        french: "Tu es blessé ? Fais-moi voir.",
+        french: "Qu'est-ce qu'il/elle a dit ?",
         mandarin: "你受伤了吗？让我看看。",
         pinyin: "Nǐ shòushāng le ma? Ràng wǒ kàn kàn.",
         tone: "neutral"
@@ -168,7 +168,7 @@ export const situations: Situation[] = [
       {
         id: "hurt-n3",
         english: "Let's talk about what we can do.",
-        french: "Parlons de ce qu'on peut faire.",
+        french: "On va clarifier ça.",
         mandarin: "我们来谈谈可以怎么做。",
         pinyin: "Wǒmen lái tán tán kěyǐ zěnme zuò.",
         tone: "neutral"
@@ -177,23 +177,23 @@ export const situations: Situation[] = [
       {
         id: "hurt-f1",
         english: "That wasn't okay. We need to address this.",
-        french: "Ce n'était pas acceptable. On doit en parler.",
-        mandarin: "那样做是不对的。我们需要处理这件事。",
-        pinyin: "Nàyàng zuò shì bùduì de. Wǒmen xūyào chǔlǐ zhè jiàn shì.",
+        french: "On ne parle pas comme ça aux autres.",
+        mandarin: "那样做是不对的。我们会想办法解决。",
+        pinyin: "Nàyàng zuò shì bù duì de. Wǒmen huì xiǎng bànfǎ jiějué.",
         tone: "firm"
       },
       {
         id: "hurt-f2",
         english: "I will help you, but first I need you to tell me the truth.",
-        french: "Je vais t'aider, mais d'abord j'ai besoin que tu me dises la vérité.",
-        mandarin: "我会帮助你，但首先我需要你告诉我真相。",
-        pinyin: "Wǒ huì bāngzhù nǐ, dàn shǒuxiān wǒ xūyào nǐ gàosù wǒ zhēnxiàng.",
+        french: "Personne n'a le droit de te faire mal.",
+        mandarin: "我会帮你，但你要跟我说清楚发生了什么。",
+        pinyin: "Wǒ huì bāng nǐ, dàn nǐ yào gēn wǒ shuō qīngchu fāshēng le shénme.",
         tone: "firm"
       },
       {
         id: "hurt-f3",
         english: "Hurting others is never acceptable.",
-        french: "Faire du mal aux autres n'est jamais acceptable.",
+        french: "Je vais m'en occuper.",
         mandarin: "伤害别人是绝对不可以的。",
         pinyin: "Shānghài biérén shì juéduì bù kěyǐ de.",
         tone: "firm"
@@ -210,15 +210,15 @@ export const situations: Situation[] = [
       {
         id: "listen-g1",
         english: "I can see you're busy. When you're ready, I need to talk to you.",
-        french: "Je vois que tu es occupé. Quand tu seras prêt, j'ai besoin de te parler.",
-        mandarin: "我知道你很忙。当你准备好了，我需要和你谈谈。",
-        pinyin: "Wǒ zhīdào nǐ hěn máng. Dāng nǐ zhǔnbèi hǎo le, wǒ xūyào hé nǐ tán tán.",
+        french: "Je vois que tu es concentré.",
+        mandarin: "等你准备好了，我们再说。",
+        pinyin: "Děng nǐ zhǔnbèi hǎo le, wǒmen zài shuō.",
         tone: "gentle"
       },
       {
         id: "listen-g2",
         english: "I'll wait until you can hear me.",
-        french: "J'attendrai jusqu'à ce que tu puisses m'écouter.",
+        french: "Finis ce que tu fais, puis écoute-moi.",
         mandarin: "我会等到你能听我说。",
         pinyin: "Wǒ huì děng dào nǐ néng tīng wǒ shuō.",
         tone: "gentle"
@@ -226,7 +226,7 @@ export const situations: Situation[] = [
       {
         id: "listen-g3",
         english: "Let's find a solution together.",
-        french: "Trouvons une solution ensemble.",
+        french: "On peut faire une pause ?",
         mandarin: "我们一起找个解决办法吧。",
         pinyin: "Wǒmen yīqǐ zhǎo gè jiějué bànfǎ ba.",
         tone: "gentle"
@@ -235,7 +235,7 @@ export const situations: Situation[] = [
       {
         id: "listen-n1",
         english: "Please look at me when I'm talking to you.",
-        french: "S'il te plaît, regarde-moi quand je te parle.",
+        french: "Stop. Regarde-moi.",
         mandarin: "我说话的时候请看着我。",
         pinyin: "Wǒ shuōhuà de shíhòu qǐng kàn zhe wǒ.",
         tone: "neutral"
@@ -243,7 +243,7 @@ export const situations: Situation[] = [
       {
         id: "listen-n2",
         english: "I need you to listen. This is important.",
-        french: "J'ai besoin que tu écoutes. C'est important.",
+        french: "J'attends ton attention.",
         mandarin: "我需要你听着。这很重要。",
         pinyin: "Wǒ xūyào nǐ tīng zhe. Zhè hěn zhòngyào.",
         tone: "neutral"
@@ -251,7 +251,7 @@ export const situations: Situation[] = [
       {
         id: "listen-n3",
         english: "Can you repeat what I just said?",
-        french: "Peux-tu répéter ce que je viens de dire ?",
+        french: "Réponds-moi.",
         mandarin: "你能重复一下我刚才说的话吗？",
         pinyin: "Nǐ néng chóngfù yīxià wǒ gāngcái shuō de huà ma?",
         tone: "neutral"
@@ -260,23 +260,23 @@ export const situations: Situation[] = [
       {
         id: "listen-f1",
         english: "I've asked you three times. This is the last time.",
-        french: "Je t'ai demandé trois fois. C'est la dernière fois.",
-        mandarin: "我已经说了三遍了。这是最后一次。",
-        pinyin: "Wǒ yǐjīng shuō le sān biàn le. Zhè shì zuìhòu yī cì.",
+        french: "Maintenant, tu m'écoutes.",
+        mandarin: "我已经说过几次了，现在需要你听我说。",
+        pinyin: "Wǒ yǐjīng shuō guò jǐ cì le, xiànzài xūyào nǐ tīng wǒ shuō.",
         tone: "firm"
       },
       {
         id: "listen-f2",
         english: "If you don't listen, there will be consequences.",
-        french: "Si tu n'écoutes pas, il y aura des conséquences.",
-        mandarin: "如果你不听，会有后果的。",
-        pinyin: "Rúguǒ nǐ bù tīng, huì yǒu hòuguǒ de.",
+        french: "Je ne vais pas répéter encore.",
+        mandarin: "如果你不听，就会有结果。",
+        pinyin: "Rúguǒ nǐ bù tīng, jiù huì yǒu jiéguǒ.",
         tone: "firm"
       },
       {
         id: "listen-f3",
         english: "Stop what you're doing and listen to me now.",
-        french: "Arrête ce que tu fais et écoute-moi maintenant.",
+        french: "Stop ce que tu fais.",
         mandarin: "停下你正在做的事，现在听我说。",
         pinyin: "Tíng xià nǐ zhèngzài zuò de shì, xiànzài tīng wǒ shuō.",
         tone: "firm"
@@ -293,7 +293,7 @@ export const situations: Situation[] = [
       {
         id: "aggro-g1",
         english: "I can see you're very angry. Let's calm down together.",
-        french: "Je vois que tu es très en colère. Calmons-nous ensemble.",
+        french: "Ton corps est très en colère.",
         mandarin: "我看到你很生气。我们一起冷静下来吧。",
         pinyin: "Wǒ kàn dào nǐ hěn shēngqì. Wǒmen yīqǐ lěngjìng xiàlái ba.",
         tone: "gentle"
@@ -301,7 +301,7 @@ export const situations: Situation[] = [
       {
         id: "aggro-g2",
         english: "It's okay to feel angry, but it's not okay to hurt.",
-        french: "C'est normal d'être en colère, mais ce n'est pas bien de faire mal.",
+        french: "On va poser les mains.",
         mandarin: "生气是可以的，但是伤害别人是不可以的。",
         pinyin: "Shēngqì shì kěyǐ de, dànshì shānghài biérén shì bù kěyǐ de.",
         tone: "gentle"
@@ -309,7 +309,7 @@ export const situations: Situation[] = [
       {
         id: "aggro-g3",
         english: "Let's find another way to show how you feel.",
-        french: "Trouvons une autre façon de montrer ce que tu ressens.",
+        french: "Viens près de moi.",
         mandarin: "我们找另一种方式来表达你的感受吧。",
         pinyin: "Wǒmen zhǎo lìng yī zhǒng fāngshì lái biǎodá nǐ de gǎnshòu ba.",
         tone: "gentle"
@@ -318,7 +318,7 @@ export const situations: Situation[] = [
       {
         id: "aggro-n1",
         english: "Hands are not for hitting.",
-        french: "Les mains ne sont pas faites pour frapper.",
+        french: "On garde ses mains pour soi.",
         mandarin: "手不是用来打人的。",
         pinyin: "Shǒu bùshì yòng lái dǎ rén de.",
         tone: "neutral"
@@ -326,15 +326,15 @@ export const situations: Situation[] = [
       {
         id: "aggro-n2",
         english: "Use your words, not your hands.",
-        french: "Utilise tes mots, pas tes mains.",
-        mandarin: "用你的话语，不要用你的手。",
-        pinyin: "Yòng nǐ de huàyǔ, bùyào yòng nǐ de shǒu.",
+        french: "Ça suffit.",
+        mandarin: "用嘴巴说，不要用手。",
+        pinyin: "Yòng zuǐba shuō, bú yào yòng shǒu.",
         tone: "neutral"
       },
       {
         id: "aggro-n3",
         english: "Take a step back and breathe.",
-        french: "Recule d'un pas et respire.",
+        french: "Recule.",
         mandarin: "退后一步，深呼吸。",
         pinyin: "Tuìhòu yī bù, shēn hūxī.",
         tone: "neutral"
@@ -343,15 +343,15 @@ export const situations: Situation[] = [
       {
         id: "aggro-f1",
         english: "Stop. Hitting is not allowed.",
-        french: "Arrête. Frapper n'est pas permis.",
-        mandarin: "停下。打人是不允许的。",
-        pinyin: "Tíng xià. Dǎ rén shì bù yǔnxǔ de.",
+        french: "Je ne te laisserai pas taper.",
+        mandarin: "停。不能打人。",
+        pinyin: "Tíng. Bù néng dǎ rén.",
         tone: "firm"
       },
       {
         id: "aggro-f2",
         english: "I won't let you hurt anyone.",
-        french: "Je ne te laisserai pas faire de mal à qui que ce soit.",
+        french: "Stop immédiatement.",
         mandarin: "我不会让你伤害任何人。",
         pinyin: "Wǒ bù huì ràng nǐ shānghài rènhé rén.",
         tone: "firm"
@@ -359,7 +359,7 @@ export const situations: Situation[] = [
       {
         id: "aggro-f3",
         english: "We need to go to a quiet place right now.",
-        french: "On doit aller dans un endroit calme maintenant.",
+        french: "On arrête maintenant.",
         mandarin: "我们现在需要去一个安静的地方。",
         pinyin: "Wǒmen xiànzài xūyào qù yīgè ānjìng de dìfāng.",
         tone: "firm"
@@ -376,7 +376,7 @@ export const situations: Situation[] = [
       {
         id: "leave-g1",
         english: "Five more minutes, then it's time to go.",
-        french: "Encore cinq minutes, puis on doit y aller.",
+        french: "Encore un petit moment.",
         mandarin: "再玩五分钟，然后我们就要走了。",
         pinyin: "Zài wán wǔ fēnzhōng, ránhòu wǒmen jiù yào zǒu le.",
         tone: "gentle"
@@ -384,7 +384,7 @@ export const situations: Situation[] = [
       {
         id: "leave-g2",
         english: "I know it's hard to leave when you're having fun.",
-        french: "Je sais que c'est difficile de partir quand tu t'amuses.",
+        french: "On finit ce que tu fais.",
         mandarin: "我知道玩得开心时很难离开。",
         pinyin: "Wǒ zhīdào wán de kāixīn shí hěn nán líkāi.",
         tone: "gentle"
@@ -392,7 +392,7 @@ export const situations: Situation[] = [
       {
         id: "leave-g3",
         english: "We can come back another day.",
-        french: "On pourra revenir un autre jour.",
+        french: "Dis au revoir tranquillement.",
         mandarin: "我们可以改天再来。",
         pinyin: "Wǒmen kěyǐ gǎitiān zài lái.",
         tone: "gentle"
@@ -401,15 +401,15 @@ export const situations: Situation[] = [
       {
         id: "leave-n1",
         english: "It's time to go now.",
-        french: "C'est l'heure de partir maintenant.",
-        mandarin: "现在是时候走了。",
-        pinyin: "Xiànzài shì shíhòu zǒu le.",
+        french: "On y va.",
+        mandarin: "现在该走了。",
+        pinyin: "Xiànzài gāi zǒu le.",
         tone: "neutral"
       },
       {
         id: "leave-n2",
         english: "Say goodbye and let's go.",
-        french: "Dis au revoir et allons-y.",
+        french: "C'est terminé.",
         mandarin: "说再见，我们走吧。",
         pinyin: "Shuō zàijiàn, wǒmen zǒu ba.",
         tone: "neutral"
@@ -417,7 +417,7 @@ export const situations: Situation[] = [
       {
         id: "leave-n3",
         english: "Put your shoes on, please.",
-        french: "Mets tes chaussures, s'il te plaît.",
+        french: "Mets ton manteau.",
         mandarin: "请穿上你的鞋子。",
         pinyin: "Qǐng chuān shàng nǐ de xiézi.",
         tone: "neutral"
@@ -426,15 +426,15 @@ export const situations: Situation[] = [
       {
         id: "leave-f1",
         english: "We're leaving now. No more discussion.",
-        french: "On part maintenant. Pas de discussion.",
-        mandarin: "我们现在就走。不要再讨论了。",
-        pinyin: "Wǒmen xiànzài jiù zǒu. Bùyào zài tǎolùn le.",
+        french: "On part maintenant.",
+        mandarin: "现在要走了，不再说了。",
+        pinyin: "Xiànzài yào zǒu le, bú zài shuō le.",
         tone: "firm"
       },
       {
         id: "leave-f2",
         english: "You have two choices: walk or be carried.",
-        french: "Tu as deux choix : marcher ou être porté.",
+        french: "Pas de discussion.",
         mandarin: "你有两个选择：自己走或者我抱着你走。",
         pinyin: "Nǐ yǒu liǎng gè xuǎnzé: zìjǐ zǒu huòzhě wǒ bào zhe nǐ zǒu.",
         tone: "firm"
@@ -442,7 +442,7 @@ export const situations: Situation[] = [
       {
         id: "leave-f3",
         english: "I'm counting to three, then we go.",
-        french: "Je compte jusqu'à trois, puis on part.",
+        french: "Tu viens.",
         mandarin: "我数到三，然后我们就走。",
         pinyin: "Wǒ shǔ dào sān, ránhòu wǒmen jiù zǒu.",
         tone: "firm"
@@ -493,16 +493,16 @@ export const situations: Situation[] = [
         id: "everyday-n2",
         english: "Come here",
         french: "Viens ici.",
-        mandarin: "过来。",
-        pinyin: "guò lái.",
+        mandarin: "停一下，等一等。",
+        pinyin: "Tíng yíxià, děng yì děng.",
         tone: "neutral"
       },
       {
         id: "everyday-f2",
         english: "Come here",
         french: "Viens ici, tout de suite.",
-        mandarin: "马上过来。",
-        pinyin: "mǎ shàng guò lái.",
+        mandarin: "停，这样不可以。",
+        pinyin: "Tíng, zhèyàng bù kěyǐ.",
         tone: "firm"
       },
       // "Wait"
@@ -692,7 +692,7 @@ export const situations: Situation[] = [
       {
         id: "share-g1",
         english: "I know it's hard to share your favorite things.",
-        french: "Je sais que c'est difficile de partager tes choses préférées.",
+        french: "Je sais que c'est ton jouet préféré.",
         mandarin: "我知道分享你最喜欢的东西很难。",
         pinyin: "Wǒ zhīdào fēnxiǎng nǐ zuì xǐhuān de dōngxī hěn nán.",
         tone: "gentle"
@@ -700,7 +700,7 @@ export const situations: Situation[] = [
       {
         id: "share-g2",
         english: "How about taking turns?",
-        french: "Et si on faisait chacun son tour ?",
+        french: "C'est dur de prêter.",
         mandarin: "我们轮流玩怎么样？",
         pinyin: "Wǒmen lúnliú wán zěnmeyàng?",
         tone: "gentle"
@@ -708,7 +708,7 @@ export const situations: Situation[] = [
       {
         id: "share-g3",
         english: "Sharing can make playing even more fun.",
-        french: "Partager peut rendre le jeu encore plus amusant.",
+        french: "On peut essayer un petit moment ?",
         mandarin: "分享可以让玩耍更有趣。",
         pinyin: "Fēnxiǎng kěyǐ ràng wánshuǎ gèng yǒuqù.",
         tone: "gentle"
@@ -717,7 +717,7 @@ export const situations: Situation[] = [
       {
         id: "share-n1",
         english: "Your friend would like a turn too.",
-        french: "Ton ami aimerait aussi avoir son tour.",
+        french: "On fait chacun son tour.",
         mandarin: "你的朋友也想玩一下。",
         pinyin: "Nǐ de péngyǒu yě xiǎng wán yīxià.",
         tone: "neutral"
@@ -725,7 +725,7 @@ export const situations: Situation[] = [
       {
         id: "share-n2",
         english: "You can have it back in five minutes.",
-        french: "Tu pourras le reprendre dans cinq minutes.",
+        french: "C'est son tour.",
         mandarin: "五分钟后你就可以拿回来。",
         pinyin: "Wǔ fēnzhōng hòu nǐ jiù kěyǐ ná huílái.",
         tone: "neutral"
@@ -733,7 +733,7 @@ export const situations: Situation[] = [
       {
         id: "share-n3",
         english: "Let's set a timer for taking turns.",
-        french: "Mettons un minuteur pour faire chacun son tour.",
+        french: "On met le minuteur.",
         mandarin: "我们设个计时器来轮流吧。",
         pinyin: "Wǒmen shè gè jìshíqì lái lúnliú ba.",
         tone: "neutral"
@@ -742,15 +742,15 @@ export const situations: Situation[] = [
       {
         id: "share-f1",
         english: "If you can't share, we'll put it away.",
-        french: "Si tu ne peux pas partager, on le range.",
-        mandarin: "如果你不能分享，我们就把它收起来。",
-        pinyin: "Rúguǒ nǐ bù néng fēnxiǎng, wǒmen jiù bǎ tā shōu qǐlái.",
+        french: "Si tu ne partages pas, on range.",
+        mandarin: "都自己玩，不太公平哦。",
+        pinyin: "Dōu zìjǐ wán, bú tài gōngpíng ó.",
         tone: "firm"
       },
       {
         id: "share-f2",
         english: "It's not fair to keep it all to yourself.",
-        french: "Ce n'est pas juste de tout garder pour toi.",
+        french: "On ne garde pas tout.",
         mandarin: "把所有东西都留给自己是不公平的。",
         pinyin: "Bǎ suǒyǒu dōngxī dōu liú gěi zìjǐ shì bù gōngpíng de.",
         tone: "firm"
@@ -758,9 +758,9 @@ export const situations: Situation[] = [
       {
         id: "share-f3",
         english: "Give your friend a turn now.",
-        french: "Donne son tour à ton ami maintenant.",
-        mandarin: "现在让你的朋友玩一下。",
-        pinyin: "Xiànzài ràng nǐ de péngyǒu wán yīxià.",
+        french: "Maintenant, c'est son tour.",
+        mandarin: "现在让朋友玩一下，好吗？",
+        pinyin: "Xiànzài ràng péngyǒu wán yíxià, hǎo ma?",
         tone: "firm"
       }
     ]
@@ -775,7 +775,7 @@ export const situations: Situation[] = [
       {
         id: "unkind-g1",
         english: "Those words can hurt. How do you think that made them feel?",
-        french: "Ces mots peuvent faire mal. Comment penses-tu qu'ils se sont sentis ?",
+        french: "Ces mots peuvent blesser.",
         mandarin: "那些话会伤害人。你觉得他们听了会怎么想？",
         pinyin: "Nàxiē huà huì shānghài rén. Nǐ juéde tāmen tīng le huì zěnme xiǎng?",
         tone: "gentle"
@@ -783,7 +783,7 @@ export const situations: Situation[] = [
       {
         id: "unkind-g2",
         english: "I know you didn't mean to hurt them.",
-        french: "Je sais que tu ne voulais pas leur faire de mal.",
+        french: "On peut dire ça plus gentiment.",
         mandarin: "我知道你不是故意要伤害他们的。",
         pinyin: "Wǒ zhīdào nǐ bùshì gùyì yào shānghài tāmen de.",
         tone: "gentle"
@@ -791,7 +791,7 @@ export const situations: Situation[] = [
       {
         id: "unkind-g3",
         english: "Let's think of a kinder way to say that.",
-        french: "Réfléchissons à une façon plus gentille de le dire.",
+        french: "Essaie autrement.",
         mandarin: "我们想想有没有更友善的说法。",
         pinyin: "Wǒmen xiǎng xiǎng yǒu méiyǒu gèng yǒushàn de shuōfǎ.",
         tone: "gentle"
@@ -800,7 +800,7 @@ export const situations: Situation[] = [
       {
         id: "unkind-n1",
         english: "That wasn't a kind thing to say.",
-        french: "Ce n'était pas gentil de dire ça.",
+        french: "Ce n'était pas gentil.",
         mandarin: "那样说话不太友善。",
         pinyin: "Nàyàng shuōhuà bù tài yǒushàn.",
         tone: "neutral"
@@ -808,7 +808,7 @@ export const situations: Situation[] = [
       {
         id: "unkind-n2",
         english: "How would you feel if someone said that to you?",
-        french: "Comment te sentirais-tu si quelqu'un te disait ça ?",
+        french: "On parle avec respect.",
         mandarin: "如果有人对你说那样的话，你会怎么想？",
         pinyin: "Rúguǒ yǒu rén duì nǐ shuō nàyàng de huà, nǐ huì zěnme xiǎng?",
         tone: "neutral"
@@ -816,16 +816,16 @@ export const situations: Situation[] = [
       {
         id: "unkind-n3",
         english: "We use kind words in this family.",
-        french: "Dans notre famille, on utilise des mots gentils.",
-        mandarin: "在我们家，我们说友善的话。",
-        pinyin: "Zài wǒmen jiā, wǒmen shuō yǒushàn de huà.",
+        french: "Recommence.",
+        mandarin: "在我们家，我们要说好听的话。",
+        pinyin: "Zài wǒmen jiā, wǒmen yào shuō hǎo tīng de huà.",
         tone: "neutral"
       },
       // Firm
       {
         id: "unkind-f1",
         english: "That's not okay. You need to apologize.",
-        french: "Ce n'est pas acceptable. Tu dois t'excuser.",
+        french: "Je n'accepte pas ça.",
         mandarin: "那样说话是不对的。你需要道歉。",
         pinyin: "Nàyàng shuōhuà shì bùduì de. Nǐ xūyào dàoqiàn.",
         tone: "firm"
@@ -833,7 +833,7 @@ export const situations: Situation[] = [
       {
         id: "unkind-f2",
         english: "I don't allow name-calling.",
-        french: "Je n'accepte pas les insultes.",
+        french: "Tu t'excuses.",
         mandarin: "我不允许骂人。",
         pinyin: "Wǒ bù yǔnxǔ mà rén.",
         tone: "firm"
@@ -841,7 +841,7 @@ export const situations: Situation[] = [
       {
         id: "unkind-f3",
         english: "Stop and think before you speak.",
-        french: "Arrête-toi et réfléchis avant de parler.",
+        french: "On ne parle pas comme ça.",
         mandarin: "说话之前先停下来想一想。",
         pinyin: "Shuōhuà zhīqián xiān tíng xiàlái xiǎng yī xiǎng.",
         tone: "firm"
@@ -858,7 +858,7 @@ export const situations: Situation[] = [
       {
         id: "scared-g1",
         english: "I'm here with you. You're safe.",
-        french: "Je suis là avec toi. Tu es en sécurité.",
+        french: "Je suis juste là.",
         mandarin: "我在这里陪着你。你是安全的。",
         pinyin: "Wǒ zài zhèlǐ péi zhe nǐ. Nǐ shì ānquán de.",
         tone: "gentle"
@@ -866,7 +866,7 @@ export const situations: Situation[] = [
       {
         id: "scared-g2",
         english: "It's okay to feel scared. I feel scared sometimes too.",
-        french: "C'est normal d'avoir peur. Moi aussi j'ai peur parfois.",
+        french: "Tu es en sécurité.",
         mandarin: "害怕是正常的。我有时候也会害怕。",
         pinyin: "Hàipà shì zhèngcháng de. Wǒ yǒu shíhòu yě huì hàipà.",
         tone: "gentle"
@@ -874,7 +874,7 @@ export const situations: Situation[] = [
       {
         id: "scared-g3",
         english: "I'll hold your hand.",
-        french: "Je vais te tenir la main.",
+        french: "On fait ça doucement.",
         mandarin: "我会握着你的手。",
         pinyin: "Wǒ huì wò zhe nǐ de shǒu.",
         tone: "gentle"
@@ -882,7 +882,7 @@ export const situations: Situation[] = [
       {
         id: "scared-g4",
         english: "Would you like me to stay with you?",
-        french: "Tu veux que je reste avec toi ?",
+        french: "Je te tiens.",
         mandarin: "你想让我陪着你吗？",
         pinyin: "Nǐ xiǎng ràng wǒ péi zhe nǐ ma?",
         tone: "gentle"
@@ -899,7 +899,7 @@ export const situations: Situation[] = [
       {
         id: "scared-n2",
         english: "Let's take some deep breaths together.",
-        french: "Respirons profondément ensemble.",
+        french: "Regarde-moi.",
         mandarin: "我们一起深呼吸吧。",
         pinyin: "Wǒmen yīqǐ shēn hūxī ba.",
         tone: "neutral"
@@ -907,7 +907,7 @@ export const situations: Situation[] = [
       {
         id: "scared-n3",
         english: "What would help you feel better?",
-        french: "Qu'est-ce qui t'aiderait à te sentir mieux ?",
+        french: "On avance petit à petit.",
         mandarin: "什么能让你感觉好一点？",
         pinyin: "Shénme néng ràng nǐ gǎnjué hǎo yīdiǎn?",
         tone: "neutral"
@@ -916,7 +916,7 @@ export const situations: Situation[] = [
       {
         id: "scared-f1",
         english: "I understand you're scared, but we still need to do this.",
-        french: "Je comprends que tu as peur, mais on doit quand même le faire.",
+        french: "Je comprends, mais on y va.",
         mandarin: "我理解你很害怕，但我们还是需要做这件事。",
         pinyin: "Wǒ lǐjiě nǐ hěn hàipà, dàn wǒmen háishì xūyào zuò zhè jiàn shì.",
         tone: "firm"
@@ -924,17 +924,17 @@ export const situations: Situation[] = [
       {
         id: "scared-f2",
         english: "I'll be right here, but you can do this.",
-        french: "Je serai juste là, mais tu peux y arriver.",
-        mandarin: "我就在这里，但你可以做到的。",
-        pinyin: "Wǒ jiù zài zhèlǐ, dàn nǐ kěyǐ zuò dào de.",
+        french: "On doit le faire.",
+        mandarin: "我就在这里，你可以做到。",
+        pinyin: "Wǒ jiù zài zhèlǐ, nǐ kěyǐ zuò dào.",
         tone: "firm"
       },
       {
         id: "scared-f3",
         english: "Being brave doesn't mean not being scared. It means doing it anyway.",
-        french: "Être courageux ne veut pas dire ne pas avoir peur. Ça veut dire le faire quand même.",
-        mandarin: "勇敢不是不害怕，而是害怕了还是去做。",
-        pinyin: "Yǒnggǎn bùshì bù hàipà, érshì hàipà le háishì qù zuò.",
+        french: "Je suis là, avance.",
+        mandarin: "勇敢就是有点害怕，也还是去试一试。",
+        pinyin: "Yǒnggǎn jiù shì yǒu diǎn hàipà, yě háishì qù shì yí shì.",
         tone: "firm"
       }
     ]
@@ -949,7 +949,7 @@ export const situations: Situation[] = [
       {
         id: "bed-g1",
         english: "Let's get cozy and read a story.",
-        french: "Mettons-nous bien au chaud et lisons une histoire.",
+        french: "On se blottit un peu.",
         mandarin: "我们舒舒服服地躺下来读个故事吧。",
         pinyin: "Wǒmen shūshu fúfú de tǎng xiàlái dú gè gùshì ba.",
         tone: "gentle"
@@ -957,7 +957,7 @@ export const situations: Situation[] = [
       {
         id: "bed-g2",
         english: "I'll stay with you until you feel sleepy.",
-        french: "Je reste avec toi jusqu'à ce que tu aies sommeil.",
+        french: "Je te fais un bisou.",
         mandarin: "我会陪着你直到你困了。",
         pinyin: "Wǒ huì péi zhe nǐ zhídào nǐ kùn le.",
         tone: "gentle"
@@ -965,7 +965,7 @@ export const situations: Situation[] = [
       {
         id: "bed-g3",
         english: "Your body needs rest to grow big and strong.",
-        french: "Ton corps a besoin de repos pour grandir et devenir fort.",
+        french: "Encore un câlin.",
         mandarin: "你的身体需要休息才能长得又高又壮。",
         pinyin: "Nǐ de shēntǐ xūyào xiūxi cáinéng zhǎng de yòu gāo yòu zhuàng.",
         tone: "gentle"
@@ -974,7 +974,7 @@ export const situations: Situation[] = [
       {
         id: "bed-n1",
         english: "It's time for bed. Let's start our routine.",
-        french: "C'est l'heure de dormir. Commençons notre routine.",
+        french: "Au lit.",
         mandarin: "该睡觉了。我们开始睡前准备吧。",
         pinyin: "Gāi shuìjiào le. Wǒmen kāishǐ shuì qián zhǔnbèi ba.",
         tone: "neutral"
@@ -982,7 +982,7 @@ export const situations: Situation[] = [
       {
         id: "bed-n2",
         english: "Brush your teeth, then we'll tuck you in.",
-        french: "Brosse-toi les dents, puis on te bordrera.",
+        french: "On éteint.",
         mandarin: "刷完牙，我们就帮你盖好被子。",
         pinyin: "Shuā wán yá, wǒmen jiù bāng nǐ gài hǎo bèizi.",
         tone: "neutral"
@@ -990,7 +990,7 @@ export const situations: Situation[] = [
       {
         id: "bed-n3",
         english: "One more story, then lights out.",
-        french: "Encore une histoire, puis on éteint.",
+        french: "On se couche.",
         mandarin: "再讲一个故事，然后就关灯。",
         pinyin: "Zài jiǎng yīgè gùshì, ránhòu jiù guān dēng.",
         tone: "neutral"
@@ -999,15 +999,15 @@ export const situations: Situation[] = [
       {
         id: "bed-f1",
         english: "It's bedtime. No more getting up.",
-        french: "C'est l'heure de dormir. Plus de lever.",
-        mandarin: "该睡觉了。不要再起来了。",
-        pinyin: "Gāi shuìjiào le. Bùyào zài qǐlái le.",
+        french: "On reste au lit.",
+        mandarin: "该睡觉了，不可以再起来了。",
+        pinyin: "Gāi shuìjiào le, bù kěyǐ zài qǐlái le.",
         tone: "firm"
       },
       {
         id: "bed-f2",
         english: "You need to stay in bed now.",
-        french: "Tu dois rester au lit maintenant.",
+        french: "Pas de lever.",
         mandarin: "你现在必须待在床上。",
         pinyin: "Nǐ xiànzài bìxū dāi zài chuáng shàng.",
         tone: "firm"
@@ -1015,9 +1015,92 @@ export const situations: Situation[] = [
       {
         id: "bed-f3",
         english: "If you keep getting up, you'll lose story time tomorrow.",
-        french: "Si tu continues à te lever, tu n'auras pas d'histoire demain.",
-        mandarin: "如果你继续起来，明天就没有故事时间了。",
-        pinyin: "Rúguǒ nǐ jìxù qǐlái, míngtiān jiù méiyǒu gùshì shíjiān le.",
+        french: "Tu restes ici.",
+        mandarin: "如果你一直起来，明天就没有讲故事时间了。",
+        pinyin: "Rúguǒ nǐ yìzhí qǐlái, míngtiān jiù méiyǒu jiǎng gùshì shíjiān le.",
+        tone: "firm"
+      }
+    ]
+  },
+  {
+    id: "toilet-training",
+    title: "Toilet training",
+    icon: "🚽",
+    color: "bg-[#E5F2F2] hover:bg-[#D0E5E5]",
+    phrases: [
+      // Gentle
+      {
+        id: "toilet-g1",
+        english: "Let's try the potty when you're ready.",
+        french: "On essaie tranquillement.",
+        mandarin: "你准备好了我们就试试坐小马桶。",
+        pinyin: "Nǐ zhǔnbèi hǎo le wǒmen jiù shìshì zuò xiǎo mǎtǒng.",
+        tone: "gentle"
+      },
+      {
+        id: "toilet-g2",
+        english: "It's okay if nothing happens; we can try again later.",
+        french: "Ce n'est pas grave.",
+        mandarin: "没有也没关系，我们待会儿再试。",
+        pinyin: "Méiyǒu yě méi guānxi, wǒmen dàihuìr zài shì.",
+        tone: "gentle"
+      },
+      {
+        id: "toilet-g3",
+        english: "You're doing great. Learning takes time.",
+        french: "Tu apprends.",
+        mandarin: "你做得很好。学东西需要时间。",
+        pinyin: "Nǐ zuò de hěn hǎo. Xué dōngxi xūyào shíjiān.",
+        tone: "gentle"
+      },
+      // Neutral
+      {
+        id: "toilet-n1",
+        english: "Time to sit on the potty.",
+        french: "C'est l'heure du pot.",
+        mandarin: "该坐小马桶了。",
+        pinyin: "Gāi zuò xiǎo mǎtǒng le.",
+        tone: "neutral"
+      },
+      {
+        id: "toilet-n2",
+        english: "Tell me when you need to go.",
+        french: "On essaie maintenant.",
+        mandarin: "想上厕所的时候告诉我。",
+        pinyin: "Xiǎng shàng cèsuǒ de shíhou gàosù wǒ.",
+        tone: "neutral"
+      },
+      {
+        id: "toilet-n3",
+        english: "Let's try the potty before we leave.",
+        french: "Assieds-toi.",
+        mandarin: "我们出门前先坐一下小马桶。",
+        pinyin: "Wǒmen chūmén qián xiān zuò yīxià xiǎo mǎtǒng.",
+        tone: "neutral"
+      },
+      // Firm
+      {
+        id: "toilet-f1",
+        english: "We're going to sit on the potty before we leave.",
+        french: "On s'assoit maintenant.",
+        mandarin: "我们出门前要先坐小马桶。",
+        pinyin: "Wǒmen chūmén qián yào xiān zuò xiǎo mǎtǒng.",
+        tone: "firm"
+      },
+      {
+        id: "toilet-f2",
+        english: "No more diapers during the day; we use the potty now.",
+        french: "On essaie avant de sortir.",
+        mandarin: "白天不用尿布了；我们现在用小马桶。",
+        pinyin: "Báitiān bù yòng niàobù le; wǒmen xiànzài yòng xiǎo mǎtǒng.",
+        tone: "firm"
+      },
+      {
+        id: "toilet-f3",
+        english: "You need to try the potty before putting on your pants.",
+        french: "Tu dois essayer.",
+        mandarin: "穿裤子前要先试一下小马桶。",
+        pinyin: "Chuān kùzi qián yào xiān shì yīxià xiǎo mǎtǒng.",
         tone: "firm"
       }
     ]
