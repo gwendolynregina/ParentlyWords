@@ -1104,6 +1104,44 @@ export const situations: Situation[] = [
         tone: "firm"
       }
     ]
+  },
+  {
+    id: "money",
+    title: "Money",
+    icon: "💰",
+    color: "bg-[#F0EDE5] hover:bg-[#E5E0D5]",
+    phrases: [
+      // Gentle (8)
+      { id: "money-g1", english: "We don't buy on impulse.", french: "On n'achète pas sur un coup de tête.", mandarin: "我们买东西之前要先想一想。", pinyin: "Wǒmen mǎi dōngxi zhīqián yào xiān xiǎng yì xiǎng.", tone: "gentle" },
+      { id: "money-g2", english: "Right now, we're choosing to spend on other things.", french: "En ce moment, on choisit de dépenser pour autre chose.", mandarin: "我知道你很想要这个。", pinyin: "Wǒ zhīdào nǐ hěn xiǎng yào zhè ge.", tone: "gentle" },
+      { id: "money-g3", english: "We're putting our money toward what matters more to us.", french: "On met notre argent dans ce qui est plus important pour nous.", mandarin: "我们不能什么都买，所以要选一选。", pinyin: "Wǒmen bù néng shénme dōu mǎi, suǒyǐ yào xuǎn yì xuǎn.", tone: "gentle" },
+      { id: "money-g4", english: "If it matters to you, we can save up for it.", french: "Si ça compte pour toi, on peut économiser pour ça.", mandarin: "如果你真的很想要，我们可以慢慢存钱。", pinyin: "Rúguǒ nǐ zhēn de hěn xiǎng yào, wǒmen kěyǐ mànmàn cún qián.", tone: "gentle" },
+      { id: "money-g5", english: "We can put a little aside each time.", french: "On peut mettre de côté petit à petit.", mandarin: "我们可以每次存一点点。", pinyin: "Wǒmen kěyǐ měi cì cún yìdiǎndiǎn.", tone: "gentle" },
+      { id: "money-g6", english: "We want to spend on what truly matters.", french: "On veut dépenser pour ce qui compte vraiment.", mandarin: "钱是用来帮助我们生活的。", pinyin: "Qián shì yòng lái bāngzhù wǒmen shēnghuó de.", tone: "gentle" },
+      { id: "money-g7", english: "I know you want it.", french: "Je sais que tu en as envie.", mandarin: "我看到你很想要。", pinyin: "Wǒ kàn dào nǐ hěn xiǎng yào.", tone: "gentle" },
+      { id: "money-g8", english: "We have a budget for certain things.", french: "On a un budget pour certaines choses.", mandarin: "我们有预算，要选一选。", pinyin: "Wǒmen yǒu yùsuàn, yào xuǎn yì xuǎn.", tone: "gentle" },
+      // Neutral (11)
+      { id: "money-n1", english: "We don't buy without thinking.", french: "On n'achète pas sans réfléchir.", mandarin: "这个没有计划。", pinyin: "Zhè ge méiyǒu jìhuà.", tone: "neutral" },
+      { id: "money-n2", english: "We need a plan before buying.", french: "On a besoin d'un plan avant d'acheter.", mandarin: "我们需要先计划。", pinyin: "Wǒmen xūyào xiān jìhuà.", tone: "neutral" },
+      { id: "money-n3", english: "We're spending on other things right now.", french: "On dépense pour d'autres choses en ce moment.", mandarin: "我们不买这个。", pinyin: "Wǒmen bú mǎi zhè ge.", tone: "neutral" },
+      { id: "money-n4", english: "If you really want it, we can plan to save.", french: "Si tu le veux vraiment, on peut prévoir d'économiser.", mandarin: "你想要的话，我们可以存钱。", pinyin: "Nǐ xiǎng yào de huà, wǒmen kěyǐ cún qián.", tone: "neutral" },
+      { id: "money-n5", english: "We pay attention to our spending.", french: "On fait attention à nos dépenses.", mandarin: "我们要对钱怎么用负责。", pinyin: "Wǒmen yào duì qián zěnme yòng fùzé.", tone: "neutral" },
+      { id: "money-n6", english: "We don't spend randomly.", french: "On ne dépense pas au hasard.", mandarin: "等一等，也是一种能力。", pinyin: "Děng yì děng, yě shì yì zhǒng nénglì.", tone: "neutral" },
+      { id: "money-n7", english: "That's not planned for today.", french: "Ce n'est pas prévu aujourd'hui.", mandarin: "今天不买。", pinyin: "Jīntiān bú mǎi.", tone: "neutral" },
+      { id: "money-n8", english: "We're not buying it.", french: "On ne l'achète pas.", mandarin: "这不在计划里。", pinyin: "Zhè bú zài jìhuà lǐ.", tone: "neutral" },
+      { id: "money-n9", english: "Not this time.", french: "Pas cette fois.", mandarin: "回家再说。", pinyin: "Huí jiā zài shuō.", tone: "neutral" },
+      { id: "money-n10", english: "We have a limit.", french: "On a une limite.", mandarin: "这超过我们的预算。", pinyin: "Zhè chāoguò wǒmen de yùsuàn.", tone: "neutral" },
+      { id: "money-n11", english: "Not now.", french: "Pas maintenant.", mandarin: "以后再说。", pinyin: "Yǐhòu zài shuō.", tone: "neutral" },
+      // Firm (8)
+      { id: "money-f1", english: "No, that's not planned.", french: "Non, ce n'est pas prévu.", mandarin: "没有计划就不买。", pinyin: "Méiyǒu jìhuà jiù bú mǎi.", tone: "firm" },
+      { id: "money-f2", english: "We're not buying that today.", french: "On n'achète pas ça aujourd'hui.", mandarin: "今天不考虑这个。", pinyin: "Jīntiān bù kǎolǜ zhè ge.", tone: "firm" },
+      { id: "money-f3", english: "That's not a priority.", french: "Ce n'est pas une priorité.", mandarin: "不买。", pinyin: "Bú mǎi.", tone: "firm" },
+      { id: "money-f4", english: "We've already decided.", french: "On a déjà décidé.", mandarin: "已经决定了。", pinyin: "Yǐjīng juédìng le.", tone: "firm" },
+      { id: "money-f5", english: "If you want it, you'll need to save.", french: "Si tu le veux, il faudra économiser.", mandarin: "要买就先存钱。", pinyin: "Yào mǎi jiù xiān cún qián.", tone: "firm" },
+      { id: "money-f6", english: "We save first.", french: "On économise d'abord.", mandarin: "要等一等。", pinyin: "Yào děng yì děng.", tone: "firm" },
+      { id: "money-f7", english: "We don't spend carelessly.", french: "On ne dépense pas n'importe comment.", mandarin: "不可以。", pinyin: "Bù kěyǐ.", tone: "firm" },
+      { id: "money-f8", english: "The answer is no.", french: "La réponse est non.", mandarin: "结束了。", pinyin: "Jiéshù le.", tone: "firm" }
+    ]
   }
 ];
 

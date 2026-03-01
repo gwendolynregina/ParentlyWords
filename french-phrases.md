@@ -154,3 +154,63 @@ All phrases from ParentlyWords, grouped by situation.
 - On s'assoit maintenant.
 - On essaie avant de sortir.
 - Tu dois essayer.
+
+## Money
+
+- On n'achète pas sur un coup de tête.
+- On préfère réfléchir avant d'acheter.
+- On prend le temps de décider.
+- En ce moment, on choisit de dépenser pour autre chose.
+- On met notre argent dans ce qui est plus important pour nous.
+- On a d'autres priorités en ce moment.
+- Si ça compte pour toi, on peut économiser pour ça.
+- On peut mettre de côté petit à petit.
+- On peut en faire un projet.
+- On choisit soigneusement comment on dépense notre argent.
+- On réfléchit avant de dépenser.
+- On veut dépenser pour ce qui compte vraiment.
+- Je sais que tu en as envie.
+- C'est tentant, hein ?
+- Je comprends que ça te fasse envie.
+- On a un budget pour certaines choses.
+- On doit choisir comment utiliser notre argent.
+- On ne peut pas tout acheter.
+- Ça peut attendre.
+- On peut y penser pour plus tard.
+- On n'achète pas sans réfléchir.
+- On a besoin d'un plan avant d'acheter.
+- Ce n'était pas prévu.
+- On dépense pour d'autres choses en ce moment.
+- Ce n'est pas notre priorité.
+- On a choisi autre chose.
+- Si tu le veux vraiment, on peut prévoir d'économiser.
+- On peut mettre de l'argent de côté.
+- On peut en parler et faire un plan.
+- On fait attention à nos dépenses.
+- On choisit ce qu'on achète.
+- On ne dépense pas au hasard.
+- Ce n'est pas prévu aujourd'hui.
+- On ne l'achète pas.
+- Pas cette fois.
+- On a une limite.
+- On a un budget.
+- Pas maintenant.
+- Peut-être plus tard.
+- Non, ce n'est pas prévu.
+- On n'achète pas ça aujourd'hui.
+- Ce n'est pas dans le plan.
+- Ce n'est pas une priorité.
+- On ne dépense pas pour ça.
+- On a déjà décidé.
+- Si tu le veux, il faudra économiser.
+- Ça ne s'achète pas tout de suite.
+- On économise d'abord.
+- On ne dépense pas n'importe comment.
+- On décide avant d'acheter.
+- On contrôle nos dépenses.
+- Non.
+- Ce n'est pas possible.
+- La réponse est non.
+- On ne dépasse pas le budget.
+- C'est au-dessus de notre budget.
+- Ce n'est pas pour aujourd'hui.

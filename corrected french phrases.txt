@@ -1,0 +1,190 @@
+🌿 My child is upset
+Gentle
+Ça te fait beaucoup d’émotions, là.
+Je suis là, prends ton temps.
+Tu veux que je reste près de toi ?
+Ça a dû être vraiment dur.
+On va traverser ça ensemble.
+Neutral
+Dis-moi ce qui t’embête.
+Regarde-moi et parle-moi.
+On va régler ça.
+Calme ton corps un peu.
+Parle-moi doucement.
+Firm
+Je t’écoute, mais sans crier.
+On se calme tout de suite.
+Je ne peux pas t’aider si tu cries.
+Respire maintenant.
+On arrête de hurler.
+💔 Someone hurt my child
+Gentle
+Ça t’a surpris ?
+Ça t’a fait mal au cœur ?
+Je comprends que tu sois blessé.
+Tu peux me raconter depuis le début ?
+Je suis avec toi.
+Neutral
+Qui était là ?
+Qu’est-ce qu’il/elle a dit ?
+On va clarifier ça.
+Je vais en parler avec lui/elle.
+On va trouver une solution.
+Firm
+On ne parle pas comme ça aux autres.
+Personne n’a le droit de te faire mal.
+Je vais m’en occuper.
+Ce comportement n’est pas acceptable.
+On va régler ça maintenant.
+👂 My child isn’t listening
+Gentle
+Je vois que tu es concentré.
+Finis ce que tu fais, puis écoute-moi.
+On peut faire une pause ?
+J’ai quelque chose d’important à te dire.
+Tu es prêt à m’écouter ?
+Neutral
+Stop. Regarde-moi.
+J’attends ton attention.
+Réponds-moi.
+Tu m’as entendu ?
+On recommence.
+Firm
+Maintenant, tu m’écoutes.
+Je ne vais pas répéter encore.
+Stop ce que tu fais.
+C’est non.
+On s’arrête tout de suite.
+😤 My child is being aggressive
+Gentle
+Ton corps est très en colère.
+On va poser les mains.
+Viens près de moi.
+Dis-le avec des mots.
+Je suis là pour t’aider.
+Neutral
+On garde ses mains pour soi.
+Ça suffit.
+Recule.
+Stop les gestes.
+Calme ton corps.
+Firm
+Je ne te laisserai pas taper.
+Stop immédiatement.
+On arrête maintenant.
+Je t’éloigne.
+Ça ne se passe pas comme ça.
+🚪 It’s time to go
+Gentle
+Encore un petit moment.
+On finit ce que tu fais.
+Dis au revoir tranquillement.
+On part bientôt.
+Prépare-toi.
+Neutral
+On y va.
+C’est terminé.
+Mets ton manteau.
+On sort.
+On se dépêche.
+Firm
+On part maintenant.
+Pas de discussion.
+Tu viens.
+C’est fini.
+On y va tout de suite.
+🤝 My child doesn’t want to share
+Gentle
+Je sais que c’est ton jouet préféré.
+C’est dur de prêter.
+On peut essayer un petit moment ?
+Tu peux lui prêter un peu ?
+On partage, puis tu le récupères.
+Neutral
+On fait chacun son tour.
+C’est son tour.
+On met le minuteur.
+À toi après.
+On alterne.
+Firm
+Si tu ne partages pas, on range.
+On ne garde pas tout.
+Maintenant, c’est son tour.
+Donne-le.
+On respecte les règles.
+🗯️ My child said something unkind
+Gentle
+Ces mots peuvent blesser.
+On peut dire ça plus gentiment.
+Essaie autrement.
+Tu voulais dire quoi vraiment ?
+On reformule ?
+Neutral
+Ce n’était pas gentil.
+On parle avec respect.
+Recommence.
+Dis-le correctement.
+On ne dit pas ça.
+Firm
+Je n’accepte pas ça.
+Tu t’excuses.
+On ne parle pas comme ça.
+Stop.
+Ça suffit.
+😨 My child is scared
+Gentle
+Je suis juste là.
+Tu es en sécurité.
+On fait ça doucement.
+Je te tiens.
+Ça va aller.
+Neutral
+Qu’est-ce qui te fait peur ?
+Regarde-moi.
+On avance petit à petit.
+Respire.
+Je suis avec toi.
+Firm
+Je comprends, mais on y va.
+On doit le faire.
+Je suis là, avance.
+Courage.
+On continue.
+🌙 Bedtime is hard
+Gentle
+On se blottit un peu.
+Je te fais un bisou.
+Encore un câlin.
+On se repose.
+Bonne nuit mon cœur.
+Neutral
+Au lit.
+On éteint.
+On se couche.
+Silence.
+C’est fini pour ce soir.
+Firm
+On reste au lit.
+Pas de lever.
+Tu restes ici.
+C’est terminé.
+Maintenant, on dort.
+🚽 Toilet training
+Gentle
+On essaie tranquillement.
+Ce n’est pas grave.
+Tu apprends.
+On réessaiera.
+Bravo d’avoir essayé.
+Neutral
+C’est l’heure du pot.
+On essaie maintenant.
+Assieds-toi.
+Dis-moi si tu as envie.
+On va aux toilettes.
+Firm
+On s’assoit maintenant.
+On essaie avant de sortir.
+Tu dois essayer.
+On ne part pas sans essayer.
+C’est obligatoire.
