@@ -1142,6 +1142,24 @@ export const situations: Situation[] = [
       { id: "money-f7", english: "We don't spend carelessly.", french: "On ne dépense pas n'importe comment.", mandarin: "不可以。", pinyin: "Bù kěyǐ.", tone: "firm" },
       { id: "money-f8", english: "The answer is no.", french: "La réponse est non.", mandarin: "结束了。", pinyin: "Jiéshù le.", tone: "firm" }
     ]
+  },
+  {
+    id: "affirmations",
+    title: "Affirmations",
+    icon: "✨",
+    color: "bg-[#F5F0E8] hover:bg-[#EBE5DC]",
+    phrases: [
+      // All affirmations (no tone split)
+      { id: "affirm-g1", english: "You are strong.", french: "Tu es fort.", mandarin: "你很坚强。", pinyin: "Nǐ hěn jiānqiáng.", tone: "gentle" },
+      { id: "affirm-g2", english: "You are audacious.", french: "Tu es audacieux.", mandarin: "你很大胆。", pinyin: "Nǐ hěn dàdǎn.", tone: "gentle" },
+      { id: "affirm-g3", english: "You are tenacious.", french: "Tu es tenace.", mandarin: "你很坚持。", pinyin: "Nǐ hěn jiānchí.", tone: "gentle" },
+      { id: "affirm-g4", english: "You are funny.", french: "Tu es drôle.", mandarin: "你很幽默。", pinyin: "Nǐ hěn yōumò.", tone: "gentle" },
+      { id: "affirm-g5", english: "You are intelligent.", french: "Tu es intelligent.", mandarin: "你很聪明。", pinyin: "Nǐ hěn cōngmíng.", tone: "gentle" },
+      { id: "affirm-g6", english: "You are beautiful.", french: "Tu es beau.", mandarin: "你很美。", pinyin: "Nǐ hěn měi.", tone: "gentle" },
+      { id: "affirm-g7", english: "You are kind.", french: "Tu es gentil.", mandarin: "你很善良。", pinyin: "Nǐ hěn shànliáng.", tone: "gentle" },
+      { id: "affirm-g8", english: "You are creative.", french: "Tu es créatif.", mandarin: "你很有创意。", pinyin: "Nǐ hěn yǒu chuàngyì.", tone: "gentle" },
+      { id: "affirm-g9", english: "You are brave.", french: "Tu es courageux.", mandarin: "你很勇敢。", pinyin: "Nǐ hěn yǒnggǎn.", tone: "gentle" }
+    ]
   }
 ];
 
