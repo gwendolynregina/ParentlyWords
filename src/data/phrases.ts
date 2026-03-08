@@ -127,7 +127,7 @@ export const situations: Situation[] = [
       {
         id: "hurt-g1",
         english: "I can see that really hurt. I'm sorry that happened.",
-        french: "Ça t'a surpris ?",
+        french: "Je vois que ça t'a blessé. Je suis désolé que ça se soit passé. (Je vois que ça t'a blessée. Je suis désolée que ça se soit passé.)",
         mandarin: "我知道这让你很伤心。我很抱歉发生了这件事。",
         pinyin: "Wǒ zhīdào zhè ràng nǐ hěn shāngxīn. Wǒ hěn bàoqiàn fāshēng le zhè jiàn shì.",
         tone: "gentle"
@@ -143,7 +143,7 @@ export const situations: Situation[] = [
       {
         id: "hurt-g3",
         english: "It wasn't your fault.",
-        french: "Je comprends que tu sois blessé.",
+        french: "Je comprends que tu sois blessé. (Je comprends que tu sois blessée.)",
         mandarin: "这不是你的错。",
         pinyin: "Zhè bùshì nǐ de cuò.",
         tone: "gentle"
@@ -210,7 +210,7 @@ export const situations: Situation[] = [
       {
         id: "listen-g1",
         english: "I can see you're busy. When you're ready, I need to talk to you.",
-        french: "Je vois que tu es concentré.",
+        french: "Je vois que tu es concentré. (Je vois que tu es concentrée.)",
         mandarin: "等你准备好了，我们再说。",
         pinyin: "Děng nǐ zhǔnbèi hǎo le, wǒmen zài shuō.",
         tone: "gentle"
@@ -800,7 +800,7 @@ export const situations: Situation[] = [
       {
         id: "unkind-n1",
         english: "That wasn't a kind thing to say.",
-        french: "Ce n'était pas gentil.",
+        french: "Ce n'était pas gentil. (Ce n'était pas gentille.)",
         mandarin: "那样说话不太友善。",
         pinyin: "Nàyàng shuōhuà bù tài yǒushàn.",
         tone: "neutral"
@@ -1149,16 +1149,16 @@ export const situations: Situation[] = [
     icon: "✨",
     color: "bg-[#F5F0E8] hover:bg-[#EBE5DC]",
     phrases: [
-      // All affirmations (no tone split)
-      { id: "affirm-g1", english: "You are strong.", french: "Tu es fort.", mandarin: "你很坚强。", pinyin: "Nǐ hěn jiānqiáng.", tone: "gentle" },
-      { id: "affirm-g2", english: "You are audacious.", french: "Tu es audacieux.", mandarin: "你很大胆。", pinyin: "Nǐ hěn dàdǎn.", tone: "gentle" },
+      // All affirmations (no tone split) — m./f. = masculine / feminine
+      { id: "affirm-g1", english: "You are strong.", french: "Tu es fort. (Tu es forte.)", mandarin: "你很坚强。", pinyin: "Nǐ hěn jiānqiáng.", tone: "gentle" },
+      { id: "affirm-g2", english: "You are audacious.", french: "Tu es audacieux. (Tu es audacieuse.)", mandarin: "你很大胆。", pinyin: "Nǐ hěn dàdǎn.", tone: "gentle" },
       { id: "affirm-g3", english: "You are tenacious.", french: "Tu es tenace.", mandarin: "你很坚持。", pinyin: "Nǐ hěn jiānchí.", tone: "gentle" },
       { id: "affirm-g4", english: "You are funny.", french: "Tu es drôle.", mandarin: "你很幽默。", pinyin: "Nǐ hěn yōumò.", tone: "gentle" },
-      { id: "affirm-g5", english: "You are intelligent.", french: "Tu es intelligent.", mandarin: "你很聪明。", pinyin: "Nǐ hěn cōngmíng.", tone: "gentle" },
-      { id: "affirm-g6", english: "You are beautiful.", french: "Tu es beau.", mandarin: "你很美。", pinyin: "Nǐ hěn měi.", tone: "gentle" },
-      { id: "affirm-g7", english: "You are kind.", french: "Tu es gentil.", mandarin: "你很善良。", pinyin: "Nǐ hěn shànliáng.", tone: "gentle" },
-      { id: "affirm-g8", english: "You are creative.", french: "Tu es créatif.", mandarin: "你很有创意。", pinyin: "Nǐ hěn yǒu chuàngyì.", tone: "gentle" },
-      { id: "affirm-g9", english: "You are brave.", french: "Tu es courageux.", mandarin: "你很勇敢。", pinyin: "Nǐ hěn yǒnggǎn.", tone: "gentle" }
+      { id: "affirm-g5", english: "You are intelligent.", french: "Tu es intelligent. (Tu es intelligente.)", mandarin: "你很聪明。", pinyin: "Nǐ hěn cōngmíng.", tone: "gentle" },
+      { id: "affirm-g6", english: "You are beautiful.", french: "Tu es beau. (Tu es belle.)", mandarin: "你很美。", pinyin: "Nǐ hěn měi.", tone: "gentle" },
+      { id: "affirm-g7", english: "You are kind.", french: "Tu es gentil. (Tu es gentille.)", mandarin: "你很善良。", pinyin: "Nǐ hěn shànliáng.", tone: "gentle" },
+      { id: "affirm-g8", english: "You are creative.", french: "Tu es créatif. (Tu es créative.)", mandarin: "你很有创意。", pinyin: "Nǐ hěn yǒu chuàngyì.", tone: "gentle" },
+      { id: "affirm-g9", english: "You are brave.", french: "Tu es courageux. (Tu es courageuse.)", mandarin: "你很勇敢。", pinyin: "Nǐ hěn yǒnggǎn.", tone: "gentle" }
     ]
   }
 ];
