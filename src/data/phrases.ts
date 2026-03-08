@@ -28,7 +28,7 @@ export const situations: Situation[] = [
       {
         id: "upset-g1",
         english: "I can see you're feeling sad. I'm here with you.",
-        french: "Ça te fait beaucoup d'émotions, là.",
+        french: "Je peux voir que tu te sens triste. Je suis ici avec toi.",
         mandarin: "我看到你很难过。我在这里陪着你。",
         pinyin: "Wǒ kàn dào nǐ hěn nánguò. Wǒ zài zhèlǐ péi zhe nǐ.",
         tone: "gentle"
@@ -36,7 +36,7 @@ export const situations: Situation[] = [
       {
         id: "upset-g2",
         english: "It's okay to cry. I'll stay right here.",
-        french: "Je suis là, prends ton temps.",
+        french: "C'est normal de pleurer. Je reste ici.",
         mandarin: "哭出来没关系。我会一直在这里。",
         pinyin: "Kū chūlái méi guānxi. Wǒ huì yīzhí zài zhèlǐ.",
         tone: "gentle"
@@ -44,7 +44,7 @@ export const situations: Situation[] = [
       {
         id: "upset-g3",
         english: "Do you want a hug?",
-        french: "Tu veux que je reste près de toi ?",
+        french: "Tu veux un câlin?",
         mandarin: "你想要一个拥抱吗？",
         pinyin: "Nǐ xiǎng yào yīgè yōngbào ma?",
         tone: "gentle"
